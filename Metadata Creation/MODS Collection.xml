@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modsCollection xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3
+                          http://www.loc.gov/standards/mods/mods.xsd">  
+    
+    <mods>
+    <titleInfo> 
+            <title>Front line nurses in COVID-19 pandemic find solace in 'Hope Huddles'</title>
+    </titleInfo>
+    <name type="personal"> 
+            <namePart>Fawcett, Emily, RN</namePart>
+    </name>
+    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934"> 
+            <topic>coronavirus</topic>
+    </subject>
+    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D009726"> 
+            <topic>nurses</topic>
+    </subject>
+    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D010361"> 
+            <topic>patients</topic>
+    </subject>
+    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D006761"> 
+            <topic>hospitals</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013118.html"> 
+            <topic>pandemics</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset014625.html"> 
+            <topic>public health</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008918.html"> 
+            <topic>hope</topic>
+    </subject>
+    <subject authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">
+            <geographic>new york</geographic>
+            <geographic>united states</geographic>
+    </subject>
+    <subject> 
+            <topic>covid-19</topic>
+    </subject>
+    <typeOfResource authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/MovingImage/">
+            MovingImage
+    </typeOfResource>
+    <genre authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/MovingImage/">
+            MovingImage
+    </genre>
+    <abstract>Video by a float nurse working on one of Lenox Hill Hospital's COVID-19 units came up with the idea for "Hope Huddles," 
+            an initiative to give hope to her fellow front line health care workers.
+    </abstract>
+    <originInfo>
+        <publisher>Northwell Health</publisher>
+        <place>
+            <placeTerm>New York City, NY</placeTerm>
+        </place>
+        <copyrightDate> 2020-03-27</copyrightDate>
+    </originInfo>
+    <physicalDescription>
+       <internetMediaType>movie/mp4</internetMediaType>
+       <extent>9.1 MB</extent>
+    </physicalDescription>
+    <identifier> 
+        https://www.youtube.com/watch?v=Bt8ZboddcB4
+    </identifier>
+    <language>
+         <languageTerm authority="iso639-2b" authorityURI="https://www.loc.gov/standards/iso639-2/php/code_list.php">eng</languageTerm>
+    </language>
+    <extension xmlns:dc="http://purl.org/dc/terms/">
+        <dc:coverage>
+             2019/2020
+        </dc:coverage>
+        <dc:coverage> 
+             United States
+        </dc:coverage>
+        <dc:rights> 
+             https://www.youtube.com/static?gl=CA&template=terms
+        </dc:rights>
+    </extension>
+    </mods>
+    
+    <mods>
+    <titleInfo> 
+            <title>Provisional Death Counts for Coronavirus Disease COVID-19 Weekly State-Specific Data Updates</title>
+    </titleInfo>
+<!-- The type attribute for name should have 'organization' and/or 'non-profit' and/or 'government agency' as options -->
+    <name type="corporate"> 
+            <namePart>National Center for Health Statistics</namePart>
+            <nameIdentifier>https://www.cdc.gov/nchs/index.htm</nameIdentifier>
+            <affiliation>Centers for Disease Control and Prevention</affiliation>
+    </name>
+    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934"> 
+            <topic>coronavirus</topic>
+    </subject>
+    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D003643"> 
+            <topic>death</topic>
+    </subject>
+    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D009026"> 
+            <topic>mortality</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013118.html"> 
+            <topic>pandemics</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset006257.html"> 
+            <topic>ethnicity</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset014825.html"> 
+            <topic>race</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset014625.html"> 
+            <topic>public health</topic>
+    </subject>
+    <subject authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">
+            <geographic>state</geographic>
+            <geographic>united states</geographic>
+    </subject>
+    <subject> 
+            <topic>covid-19</topic>
+    </subject>
+    <typeOfResource authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
+            Dataset
+    </typeOfResource>
+    <genre authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
+            Dataset
+    </genre>
+    <abstract>Dateset containing estimated distributions of COVID-19 deaths and population size by race and Hispanic origin. 
+              The percentages of COVID-19 deaths by race and Hispanic origin were calculated by dividing the number of COVID-19 
+              deaths for each race and Hispanic origin group by the total number of COVID-19 deaths.
+    </abstract>
+    <originInfo>
+        <publisher>Centers for Disease Control and Prevention</publisher>
+        <place>
+            <placeTerm>Atlanta, GA</placeTerm>
+        </place>
+        <copyrightDate>2020-05-20</copyrightDate>
+    </originInfo>
+    <physicalDescription>
+       <internetMediaType>text/csv</internetMediaType>
+       <extent>15 KB</extent>
+    </physicalDescription>
+    <identifier> 
+        https://data.cdc.gov/NCHS/Provisional-Death-Counts-for-Coronavirus-Disease-C/pj7m-y5uh
+    </identifier>
+    <language>
+         <languageTerm authority="iso639-2b" authorityURI="https://www.loc.gov/standards/iso639-2/php/code_list.php">eng</languageTerm>
+    </language>
+    <extension xmlns:dc="http://purl.org/dc/terms/">
+        <dc:coverage>
+             2019/2020
+        </dc:coverage>
+        <dc:coverage> 
+             United States
+        </dc:coverage>
+        <dc:rights> 
+             https://www.usa.gov/government-works
+        </dc:rights>
+    </extension>
+    </mods>
+    
+    <mods>
+    <titleInfo> 
+            <title>Social Impact COVID-19 Events</title>
+    </titleInfo>
+<!-- The type attribute for name should have 'organization' and/or 'non-profit' and/or 'government agency' as options -->
+    <name type="corporate"> 
+            <namePart>Centers for Disease Control and Prevention</namePart>
+            <nameIdentifier>https://www.cdc.gov/</nameIdentifier>
+    </name>
+    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934"> 
+            <topic>coronavirus</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013118.html"> 
+            <topic>pandemics</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008569.html"> 
+            <topic>health care</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008570.html"> 
+            <topic>health care systems</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset014825.html"> 
+            <topic>school districts</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset006030.html"> 
+            <topic>emergency medical services</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset006031.html"> 
+            <topic>emergency responders</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset005096.html"> 
+            <topic>diagnostic testing</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset042939.html"> 
+            <topic>community businesses</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset003812.html"> 
+            <topic>community life</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset014625.html"> 
+            <topic>public health</topic>
+    </subject>
+    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset005843.html"> 
+            <topic>economy</topic>
+    </subject>
+    <subject authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">
+            <geographic>municipality</geographic>
+            <geographic>state</geographic>
+            <geographic>united states</geographic>
+    </subject>
+    <subject> 
+            <topic>covid-19</topic>
+    </subject>
+    <typeOfResource authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
+            Dataset
+    </typeOfResource>
+    <genre authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
+            Dataset
+    </genre>
+    <abstract>Dataset containing lists of and links to articles and announcements about the social impact of COVID-19. 
+              Topics include business closure, business reopening, school closure, elder care, healthcare worker, 
+              healthcare facility, lockdown/shelter in place, COVID-19 case clusters, mass testing, state of emergency declaration.
+    </abstract>
+    <originInfo>
+        <publisher>Centers for Disease Control and Prevention</publisher>
+        <place>
+            <placeTerm>Atlanta, GA</placeTerm>
+        </place>
+        <copyrightDate>2020-05-26</copyrightDate>
+    </originInfo>
+    <physicalDescription>
+       <internetMediaType>text/csv</internetMediaType>
+       <extent>153 KB</extent>
+    </physicalDescription>
+    <identifier> 
+        https://www.cdc.gov/covid-data-tracker/index.html
+    </identifier>
+    <language>
+         <languageTerm authority="iso639-2b" authorityURI="https://www.loc.gov/standards/iso639-2/php/code_list.php">eng</languageTerm>
+    </language>
+    <extension xmlns:dc="http://purl.org/dc/terms/">
+        <dc:coverage>
+             2019/2020
+        </dc:coverage>
+        <dc:coverage> 
+             United States
+        </dc:coverage>
+        <dc:rights> 
+             https://www.usa.gov/government-works
+        </dc:rights>
+    </extension>
+    </mods>
+      
+</modsCollection>

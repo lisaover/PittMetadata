@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Getty Thesaurus of Geographic Names (united states, new york) http://www.getty.edu/research/tools/vocabularies/tgn/ 
+Medical Subject Headings 2020 (coronavirus, nurses, patients, hospitals) https://meshb.nlm.nih.gov/search
+Ethnographic Thesaurus (public health, hope, pandemics) http://id.loc.gov/vocabulary/ethnographicTerms.html
+Not found (covid-19)
+-->
+<metadata
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+    <dc:title> 
+        Front line nurses in COVID-19 pandemic find solace in 'Hope Huddles'
+    </dc:title>
+    <dc:creator> 
+        Fawcett, Emily, RN
+    </dc:creator>
+    <dc:subject> 
+        coronavirus, covid-19, public health, nurses, patients, hope, pandemics, hospitals, new york, united states
+    </dc:subject>
+    <dc:description> 
+        Video by a float nurse working on one of Lenox Hill Hospital's COVID-19 units came up with the idea for "Hope Huddles," 
+        an initiative to give hope to her fellow front line health care workers.
+    </dc:description>
+    <dc:publisher> 
+        Northwell Health
+    </dc:publisher>
+    <dc:date> 
+        2020-03-27
+    </dc:date>
+    <dc:format> 
+        mp4
+    </dc:format>
+    <dc:identifier> 
+        https://www.youtube.com/watch?v=Bt8ZboddcB4
+    </dc:identifier>
+    <dc:language> 
+        eng
+    </dc:language>
+    <dc:coverage>
+        2019/2020
+    </dc:coverage>
+    <dc:coverage> 
+        United States
+    </dc:coverage>
+    <dc:rights> 
+        https://www.youtube.com/static?gl=CA&template=terms
+    </dc:rights>
+</metadata>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Getty Thesaurus of Geographic Names (united states, state) http://www.getty.edu/research/tools/vocabularies/tgn/ 
+Medical Subject Headings 2020 (coronavirus, death, mortality) https://meshb.nlm.nih.gov/search
+Ethnographic Thesaurus (public health, ethnicity, race, pandemics) http://id.loc.gov/vocabulary/ethnographicTerms.html
+Not found (covid-19)
+-->
+<metadata
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+    <dc:title> 
+        Provisional Death Counts for Coronavirus Disease COVID-19 Weekly State-Specific Data Updates
+    </dc:title>
+    <dc:creator> 
+        National Center for Health Statistics
+    </dc:creator>
+    <dc:subject> 
+        coronavirus, covid-19, public health, death, mortality, ethnicity, race, pandemics, united states, state
+    </dc:subject>
+    <dc:description> 
+        Dateset containing estimated distributions of COVID-19 deaths and population size by race and Hispanic origin. 
+        The percentages of COVID-19 deaths by race and Hispanic origin were calculated by dividing the number of COVID-19 
+        deaths for each race and Hispanic origin group by the total number of COVID-19 deaths.
+    </dc:description>
+    <dc:publisher> 
+        Centers for Disease Control (CDC)
+    </dc:publisher>
+    <dc:date> 
+        2020-05-20
+    </dc:date>
+    <dc:format> 
+        csv
+    </dc:format>
+    <dc:identifier> 
+        https://data.cdc.gov/NCHS/Provisional-Death-Counts-for-Coronavirus-Disease-C/pj7m-y5uh
+    </dc:identifier>
+    <dc:language> 
+        eng
+    </dc:language>
+    <dc:coverage>
+        2019/2020
+    </dc:coverage>
+    <dc:coverage> 
+        United States
+    </dc:coverage>
+    <dc:rights> 
+        https://www.usa.gov/government-works
+    </dc:rights>
+</metadata>
