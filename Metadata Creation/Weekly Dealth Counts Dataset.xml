@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-Getty Thesaurus of Geographic Names (united states, state) http://www.getty.edu/research/tools/vocabularies/tgn/ 
-Medical Subject Headings 2020 (coronavirus, death, mortality) https://meshb.nlm.nih.gov/search
-Ethnographic Thesaurus (public health, ethnicity, race, pandemics) http://id.loc.gov/vocabulary/ethnographicTerms.html
-Not found (covid-19)
--->
 <metadata
     xmlns:dc="http://purl.org/dc/elements/1.1/">
 
@@ -15,7 +9,7 @@ Not found (covid-19)
         National Center for Health Statistics
     </dc:creator>
     <dc:subject> 
-        coronavirus, covid-19, public health, death, mortality, ethnicity, race, pandemics, united states, state
+        coronavirus, covid-19, public health, death, mortality, mortality rates, ethnicity, race, pandemic, united states, state
     </dc:subject>
     <dc:description> 
         Dateset containing estimated distributions of COVID-19 deaths and population size by race and Hispanic origin. 
@@ -44,6 +38,6 @@ Not found (covid-19)
         United States
     </dc:coverage>
     <dc:rights> 
-        https://www.usa.gov/government-works
+        public domain
     </dc:rights>
 </metadata>

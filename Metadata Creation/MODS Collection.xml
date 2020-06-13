@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!-- STW Thesaurus for Economics http://zbw.eu/stw/version/latest/about -->
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.loc.gov/mods/v3
@@ -12,38 +12,22 @@
     <name type="personal"> 
             <namePart>Fawcett, Emily, RN</namePart>
     </name>
-    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934"> 
-            <topic>coronavirus</topic>
+    <subject> 
+            <topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934">coronavirus</topic>
+            <topic>covid-19</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22553">pandemic</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22938">public health</topic>
+            <topic authority="American Folklore Society Ethnographic Thesaurus" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008918.html">hope</topic>
+            <topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D009726">nurses</topic>
+            <topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D010361">patients</topic>
+            <topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D006761">hospitals</topic>
+            <geographic authority="Getty Thesaurus of Geographic Names" authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">new york</geographic>
+            <geographic authority="Getty Thesaurus of Geographic Names" authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">united states</geographic>
     </subject>
-    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D009726"> 
-            <topic>nurses</topic>
-    </subject>
-    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D010361"> 
-            <topic>patients</topic>
-    </subject>
-    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D006761"> 
-            <topic>hospitals</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013118.html"> 
-            <topic>pandemics</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset014625.html"> 
-            <topic>public health</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008918.html"> 
-            <topic>hope</topic>
-    </subject>
-    <subject authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">
-            <geographic>new york</geographic>
-            <geographic>united states</geographic>
-    </subject>
-    <subject> 
-            <topic>covid-19</topic>
-    </subject>
-    <typeOfResource authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/MovingImage/">
+    <typeOfResource autority="DCMI Type Vocabulary" authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/MovingImage/">
             MovingImage
     </typeOfResource>
-    <genre authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/MovingImage/">
+    <genre autority="DCMI Type Vocabulary" authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/MovingImage/">
             MovingImage
     </genre>
     <abstract>Video by a float nurse working on one of Lenox Hill Hospital's COVID-19 units came up with the idea for "Hope Huddles," 
@@ -52,9 +36,9 @@
     <originInfo>
         <publisher>Northwell Health</publisher>
         <place>
-            <placeTerm>New York City, NY</placeTerm>
+            <placeTerm authority="Getty Thesaurus of Geographic Names" authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">New York City, New York</placeTerm>
         </place>
-        <copyrightDate> 2020-03-27</copyrightDate>
+        <copyrightDate encoding="iso8601"> 2020-03-27</copyrightDate>
     </originInfo>
     <physicalDescription>
        <internetMediaType>movie/mp4</internetMediaType>
@@ -89,38 +73,24 @@
             <nameIdentifier>https://www.cdc.gov/nchs/index.htm</nameIdentifier>
             <affiliation>Centers for Disease Control and Prevention</affiliation>
     </name>
-    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934"> 
-            <topic>coronavirus</topic>
+    <subject>
+            <topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934">coronavirus</topic>
+            <topic>covid-19</topic>
+            <topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D003643">death</topic>
+            <topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D009026">mortality</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22360">mortality rates</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22553">pandemic</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22938">public health</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21680">health disparities</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22965">race</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21311">ethnicity</topic>
+            <geographic authority="Getty Thesaurus of Geographic Names" authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">state</geographic>
+            <geographic authority="Getty Thesaurus of Geographic Names" authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">united states</geographic>
     </subject>
-    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D003643"> 
-            <topic>death</topic>
-    </subject>
-    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D009026"> 
-            <topic>mortality</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013118.html"> 
-            <topic>pandemics</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset006257.html"> 
-            <topic>ethnicity</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset014825.html"> 
-            <topic>race</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset014625.html"> 
-            <topic>public health</topic>
-    </subject>
-    <subject authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">
-            <geographic>state</geographic>
-            <geographic>united states</geographic>
-    </subject>
-    <subject> 
-            <topic>covid-19</topic>
-    </subject>
-    <typeOfResource authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
+    <typeOfResource autority="DCMI Type Vocabulary" authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
             Dataset
     </typeOfResource>
-    <genre authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
+    <genre autority="DCMI Type Vocabulary" authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
             Dataset
     </genre>
     <abstract>Dateset containing estimated distributions of COVID-19 deaths and population size by race and Hispanic origin. 
@@ -130,9 +100,9 @@
     <originInfo>
         <publisher>Centers for Disease Control and Prevention</publisher>
         <place>
-            <placeTerm>Atlanta, GA</placeTerm>
+            <placeTerm authority="Getty Thesaurus of Geographic Names" authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">Atlanta, Georgia</placeTerm>
         </place>
-        <copyrightDate>2020-05-20</copyrightDate>
+        <copyrightDate encoding="iso8601">2020-05-20</copyrightDate>
     </originInfo>
     <physicalDescription>
        <internetMediaType>text/csv</internetMediaType>
@@ -152,7 +122,7 @@
              United States
         </dc:coverage>
         <dc:rights> 
-             https://www.usa.gov/government-works
+             public domain
         </dc:rights>
     </extension>
     </mods>
@@ -166,54 +136,25 @@
             <namePart>Centers for Disease Control and Prevention</namePart>
             <nameIdentifier>https://www.cdc.gov/</nameIdentifier>
     </name>
-    <subject authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934"> 
-            <topic>coronavirus</topic>
+    <subject> 
+            <topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934">coronavirus</topic>
+            <topic>covid-19</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22553">pandemic</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22938">public health</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21671">health care</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21678">health care services</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/20469">businesses</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21142">economic crises</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/20704">communities</topic>
+            <topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/23135">school districts</topic>
+            <geographic authority="Getty Thesaurus of Geographic Names" authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">municipality</geographic>
+            <geographic authority="Getty Thesaurus of Geographic Names" authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">state</geographic>
+            <geographic authority="Getty Thesaurus of Geographic Names" authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">united states</geographic>
     </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013118.html"> 
-            <topic>pandemics</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008569.html"> 
-            <topic>health care</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008570.html"> 
-            <topic>health care systems</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset014825.html"> 
-            <topic>school districts</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset006030.html"> 
-            <topic>emergency medical services</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset006031.html"> 
-            <topic>emergency responders</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset005096.html"> 
-            <topic>diagnostic testing</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset042939.html"> 
-            <topic>community businesses</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset003812.html"> 
-            <topic>community life</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset014625.html"> 
-            <topic>public health</topic>
-    </subject>
-    <subject authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset005843.html"> 
-            <topic>economy</topic>
-    </subject>
-    <subject authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">
-            <geographic>municipality</geographic>
-            <geographic>state</geographic>
-            <geographic>united states</geographic>
-    </subject>
-    <subject> 
-            <topic>covid-19</topic>
-    </subject>
-    <typeOfResource authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
+    <typeOfResource autority="DCMI Type Vocabulary" authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
             Dataset
     </typeOfResource>
-    <genre authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
+    <genre autority="DCMI Type Vocabulary" authorityURI="https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/" valueURI="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/Dataset/">
             Dataset
     </genre>
     <abstract>Dataset containing lists of and links to articles and announcements about the social impact of COVID-19. 
@@ -223,9 +164,9 @@
     <originInfo>
         <publisher>Centers for Disease Control and Prevention</publisher>
         <place>
-            <placeTerm>Atlanta, GA</placeTerm>
+            <placeTerm authority="Getty Thesaurus of Geographic Names" authorityURI="http://www.getty.edu/research/tools/vocabularies/tgn/">Atlanta, Georgia</placeTerm>
         </place>
-        <copyrightDate>2020-05-26</copyrightDate>
+        <copyrightDate encoding="iso8601">2020-05-26</copyrightDate>
     </originInfo>
     <physicalDescription>
        <internetMediaType>text/csv</internetMediaType>
@@ -245,7 +186,7 @@
              United States
         </dc:coverage>
         <dc:rights> 
-             https://www.usa.gov/government-works
+             public domain
         </dc:rights>
     </extension>
     </mods>

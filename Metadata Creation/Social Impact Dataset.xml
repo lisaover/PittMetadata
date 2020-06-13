@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-Getty Thesaurus of Geographic Names (united states, state, municipality) http://www.getty.edu/research/tools/vocabularies/tgn/ 
-Medical Subject Headings 2020 (coronavirus) https://meshb.nlm.nih.gov/search
-Ethnographic Thesaurus (public health, health care, health care systems, school districts, diagnostic testing, emergency medical services, emergency responders, community businesses, community life, economy, pandemics) http://id.loc.gov/vocabulary/ethnographicTerms.html
-Not found (covid-19)
--->
 <metadata
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:title>
@@ -14,8 +8,8 @@ Not found (covid-19)
         Centers for Disease Control
     </dc:creator>
     <dc:subject>
-        coronavirus, covid-19, public health, health care, health care systems, school districts, diagnostic testing, emergency medical services, 
-        emergency responders, community businesses, community life, economy, pandemics, united states, state, municipality
+        coronavirus, covid-19, public health, health care, health care services, school districts,
+        community businesses, communities, economic crises, pandemic, united states, state, municipality
     </dc:subject>
     <dc:description>
         Dataset containing lists of and links to articles and announcements about the social impact of COVID-19. 
@@ -44,6 +38,6 @@ Not found (covid-19)
         United States
     </dc:coverage>
     <dc:rights> 
-        https://www.usa.gov/government-works
+        public domain
     </dc:rights>
 </metadata>
