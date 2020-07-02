@@ -82,7 +82,10 @@ XML Schema definition for Life During COVID-19 digital library collection
         <xs:attribute name="valueURI" type="uriType" />
     </xs:complexType>
     
-<!-- Define elements -->
+<!-- Define collection elements -->
+
+<xs:element name="ldcCollection" minOccurs="1" maxOccurs="1">
+<xs:element name="ldcItem" minOccurs="1" maxOccurs="unbounded">
     
 <xs:element name="collection" type="xs:string" minOccurs="0" maxOccurs="1" />
     
@@ -140,6 +143,9 @@ XML Schema definition for Life During COVID-19 digital library collection
         </xs:element>
     </xs:sequence>
     </xs:complexType>
+ </xs:element>
+ 
+ </xs:element>
  </xs:element>
     
 </xs:schema>
