@@ -74,6 +74,39 @@ XML Schema definition for Life During COVID-19 digital library collection
             <xs:enumeration value="Vaccination"/>
         </xs:restriction>
     </xs:simpleType>
+    
+    <!-- Define simple data type for enumeration values of aggregationSpan element -->
+    <xs:simpleType name="agg-spanType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="hourly"/>
+            <xs:enumeration value="daily"/>
+            <xs:enumeration value="weekly"/>
+            <xs:enumeration value="monthly"/>
+            <xs:enumeration value="quarterly"/>
+            <xs:enumeration value="annually"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+<!-- Define simple data type for enumeration values of aggregationLevel element -->
+    <xs:simpleType name="agg-levelType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="counts"/>
+            <xs:enumeration value="mean"/>
+            <xs:enumeration value="median"/>
+            <xs:enumeration value="percent"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+<!-- Define simple data type for enumeration values of demographic element -->
+    <xs:simpleType name="demographicType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Age"/>
+            <xs:enumeration value="Ethnicity"/>
+            <xs:enumeration value="Gender"/>
+            <xs:enumeration value="Race"/>
+            <xs:enumeration value="Socioeconomic Status"/>
+        </xs:restriction>
+    </xs:simpleType></xs:schema>
    
    <!-- Define complex type for controlled vocabulary authority attributes -->
     <xs:complexType name="vocab-authType">
