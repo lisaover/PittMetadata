@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<!--
+Metadata summer 2020
+XML Schema definition for Life During COVID-19 digital library collection
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    
+    <!-- Define simple data type for enumeration values of controlled vocabulary authority schemas -->
+    <xs:simpleType name="vocabularyType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Library of Congress Subject Headings"/>
+            <xs:enumeration value="Medical Subject Headings 2020"/>
+            <xs:enumeration value="AFS Ethnographic Thesaurus"/>
+            <xs:enumeration value="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus"/>
+            <xs:enumeration value="Getty Thesaurus of Geogrphic Names"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Define simple data type for URI pattern -->
+    <xs:simpleType name="uriType">
+        <xs:restriction base="xs:string">
+             <xs:pattern value="http://.*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Define simple data type for URI pattern -->
+    <xs:simpleType name="mimeType">
+        <xs:restriction base="xs:string">
+             <xs:pattern value="[a-z]./.[a-z][1-9]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Define simple data type for enumeration values of role element -->
+    <xs:simpleType name="roleType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Creator"/>
+            <xs:enumeration value="Contributor"/>
+            <xs:enumeration value="Publisher"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Define simple data type for enumeration values of organizationType element -->
+    <xs:simpleType name="organizationType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Businesses"/>
+            <xs:enumeration value="Government"/>
+            <xs:enumeration value="Higher Education"/>
+            <xs:enumeration value="News Media"/>
+            <xs:enumeration value="Nonprofit Organizations"/>
+            <xs:enumeration value="Health Care"/>
+            <xs:enumeration value="Persons"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Define simple data type for enumeration values of category element -->
+    <xs:simpleType name="categoryType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Coronavirus"/>
+            <xs:enumeration value="Covid-19"/>
+            <xs:enumeration value="Diagnosis"/>
+            <xs:enumeration value="Facts"/>
+            <xs:enumeration value="Instruction"/> <!-- Prevention and treatment for the general public -->
+            <xs:enumeration value="Methods"/> <!-- Professional methods (instructions) for health care providers -->
+            <xs:enumeration value="Misinformation"/>
+            <xs:enumeration value="Medical Policy"/>
+            <xs:enumeration value="News"/>
+            <xs:enumeration value="Opinions"/>
+            <xs:enumeration value="Personal Narratives"/>
+            <xs:enumeration value="Quarantine"/>
+            <xs:enumeration value="Stay-At-Home"/>
+            <xs:enumeration value="Vaccination"/>
+        </xs:restriction>
+    </xs:simpleType>
+   
+   <!-- Define complex type for controlled vocabulary authority attributes -->
+    <xs:complexType name="vocab-authType">
+        <xs:attribute name="authority" type="vocabularyType" />
+        <xs:attribute name="authorityURI" type="uriType" />
+        <xs:attribute name="valueURI" type="uriType" />
+    </xs:complexType>
+    
+<!-- Define elements -->
+    
+<xs:element name="collection" type="xs:string" minOccurs="0" maxOccurs="1" />
+    
+<xs:element name="entity" minOccurs="1" maxOccurs="unbounded" >
+  <xs:complexType>
+    <xs:sequence>
+        <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
+        <xs:element name="role" type="xs:roleType" minOccurs="1" maxOccurs="2" />
+        <xs:element name="affiliation" type="xs:string" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element> 
+
+<xs:element name="organizationType" type="organizationType" minOccurs="1" maxOccurs="1" />
+
+<xs:element name="subject" minOccurs="1" maxOccurs="1">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element name="topic" type="xs:string" minOccurs="1" maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:simpleContent>
+                    <xs:extension base="vocab-authType"/>
+                </xs:simpleContent>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="category" type="xs:categoryType" minOccurs="1" maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:simpleContent>
+                    <xs:extension base="vocab-authType"/>
+                </xs:simpleContent>
+            </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+        
+<xs:element name="fileFormat" type="mimiType" minOccurs="1" maxOccurs="1" />
+<xs:element name="datePublished" type="xs:date" minOccurs="0" maxOccurs="1" />
+<xs:element name="source" type="uriType" minOccurs="1" maxOccurs="1" />
+<xs:element name="dateSourced" type="xs:date" minOccurs="1" maxOccurs="1" />
+
+<xs:element name="granularity" minOccurs="1" maxOccurs="1">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element name="relation" type="xs:string" minOccurs="1" maxOccurs="1" />
+        <xs:element name="aggregationSpan" type="xs:agg-spanType" minOccurs="0" maxOccurs="1" />
+        <xs:element name="aggregationLevel" type="xs:agg-levelType" minOccurs="0" maxOccurs="1" />
+        <xs:element name="demographics" type="xs:demographicType" minOccurs="0" maxOccurs="1" />
+        <xs:element name="geoLocation" type="xs:string" minOccurs="1" maxOccurs="1">
+            <xs:complexType>
+                <xs:simpleContent>
+                    <xs:extension base="vocab-authType"/>
+                </xs:simpleContent>
+            </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+    </xs:complexType>
+ </xs:element>
+    
+</xs:schema>
