@@ -154,7 +154,18 @@ XML Schema definition for Life During COVID-19 digital library collection
     </xs:sequence>
   </xs:complexType>
  </xs:element>
-        
+
+<xs:element name="temporalRelevance" type="xs:string" minOccurs="0" maxOccurs="1" />
+<xs:element name="temporalCoverage" type="xs:string" minOccurs="0" maxOccurs="1" />
+
+<xs:element name="spatialCoverage" type="xs:string" minOccurs="1" maxOccurs="unbounded">
+    <xs:complexType>
+        <xs:simpleContent>
+            <xs:extension base="vocab-authType"/>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:element>   
+
 <xs:element name="fileFormat" type="mimiType" minOccurs="1" maxOccurs="1" />
 <xs:element name="datePublished" type="xs:date" minOccurs="0" maxOccurs="1" />
 <xs:element name="source" type="uriType" minOccurs="1" maxOccurs="1" />
