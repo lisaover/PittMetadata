@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- STW Thesaurus for Economics http://zbw.eu/stw/version/latest/about -->
+<!-- https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22491 Occupational Safety and Health -->
 <modsCollection xmlns="http://www.loc.gov/mods/v3"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.loc.gov/mods/v3
@@ -9,8 +10,8 @@
     <titleInfo> 
             <title>Front line nurses in COVID-19 pandemic find solace in 'Hope Huddles'</title>
     </titleInfo>
-    <name type="personal"> 
-            <namePart>Fawcett, Emily, RN</namePart>
+    <name type="corporate"> 
+            <namePart>Northwell Health</namePart>
     </name>
     <subject> 
             <topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934">coronavirus</topic>

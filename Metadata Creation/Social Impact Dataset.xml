@@ -8,8 +8,43 @@
         Centers for Disease Control
     </dc:creator>
     <dc:subject>
-        coronavirus, covid-19, public health, health care, health care services, school districts,
-        community businesses, communities, economic crises, pandemic, united states, state, municipality
+        coronavirus
+    </dc:subject>
+    <dc:subject>
+        covid-19
+    </dc:subject>
+    <dc:subject>
+        public health
+    </dc:subject>
+    <dc:subject>
+        health care
+    </dc:subject>
+    <dc:subject>
+        health care services
+    </dc:subject>
+    <dc:subject>
+        school districts
+    </dc:subject>
+    <dc:subject>
+        community businesses
+    </dc:subject>
+    <dc:subject>
+        communities
+    </dc:subject>
+    <dc:subject>
+        economic crises
+    </dc:subject>
+    <dc:subject>
+        pandemic
+    </dc:subject>
+    <dc:subject>
+        united states
+    </dc:subject>
+    <dc:subject>
+        state
+    </dc:subject>
+    <dc:subject>
+        municipality
     </dc:subject>
     <dc:description>
         Dataset containing lists of and links to articles and announcements about the social impact of COVID-19. 
