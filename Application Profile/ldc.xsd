@@ -75,6 +75,14 @@ XML Schema definition for Life During COVID-19 digital library collection
         </xs:restriction>
     </xs:simpleType>
     
+    <!-- Define simple data type for enumeration values of country element 
+         Add more countries if collection is expanded beyond the USA -->
+    <xs:simpleType name="countryType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="United States" />
+        </xs:restriction>
+    </xs:simpleType>
+    
     <!-- Define simple data type for enumeration values of aggregationSpan element -->
     <xs:simpleType name="agg-spanType">
         <xs:restriction base="xs:string">
@@ -166,10 +174,13 @@ XML Schema definition for Life During COVID-19 digital library collection
     </xs:complexType>
 </xs:element>   
 
+<xs:element name="country" type="countryType" minOccurs="1" maxOccurs="1" />
 <xs:element name="fileFormat" type="mimiType" minOccurs="1" maxOccurs="1" />
 <xs:element name="datePublished" type="xs:date" minOccurs="0" maxOccurs="1" />
 <xs:element name="source" type="uriType" minOccurs="1" maxOccurs="1" />
 <xs:element name="dateSourced" type="xs:date" minOccurs="1" maxOccurs="1" />
+<xs:element name="dateCopyrighted" type="xs:date" minOccurs="0" maxOccurs="1" />
+<xs:element name="size" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
 
 <xs:element name="granularity" minOccurs="1" maxOccurs="1">
     <xs:complexType>
