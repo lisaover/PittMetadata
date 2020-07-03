@@ -16,6 +16,7 @@ XML Schema definition for Life During COVID-19 digital library collection
             <xs:enumeration value="AFS Ethnographic Thesaurus"/>
             <xs:enumeration value="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus"/>
             <xs:enumeration value="Getty Thesaurus of Geogrphic Names"/>
+            <xs:enumeration value="Media Types"/>
         </xs:restriction>
     </xs:simpleType>
     
@@ -29,7 +30,7 @@ XML Schema definition for Life During COVID-19 digital library collection
     <!-- Define simple data type for URI pattern -->
     <xs:simpleType name="mimeType">
         <xs:restriction base="xs:string">
-             <xs:pattern value="[a-z]./.[a-z][1-9]"/>
+             <xs:pattern value="[a-zA-Z]./.[a-zA-Z0-9_.-+^]"/>
         </xs:restriction>
     </xs:simpleType>
     
@@ -175,7 +176,15 @@ XML Schema definition for Life During COVID-19 digital library collection
 </xs:element>   
 
 <xs:element name="country" type="countryType" minOccurs="1" maxOccurs="1" />
-<xs:element name="fileFormat" type="mimiType" minOccurs="1" maxOccurs="1" />
+
+<xs:element name="fileFormat" type="mimiType" minOccurs="1" maxOccurs="1">
+    <xs:complexType>
+        <xs:simpleContent>
+            <xs:extension base="vocab-authType"/>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:element>
+
 <xs:element name="datePublished" type="xs:date" minOccurs="0" maxOccurs="1" />
 <xs:element name="source" type="uriType" minOccurs="1" maxOccurs="1" />
 <xs:element name="dateSourced" type="xs:date" minOccurs="1" maxOccurs="1" />
