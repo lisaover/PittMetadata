@@ -7,7 +7,7 @@ XML Schema definition for Life During COVID-19 digital library collection
 <xs:schema version="1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
-    
+        
     <!-- Define simple data type for enumeration values of controlled vocabulary authority schemas -->
     <xs:simpleType name="vocabularyType">
         <xs:restriction base="xs:string">
@@ -27,12 +27,14 @@ XML Schema definition for Life During COVID-19 digital library collection
         </xs:restriction>
     </xs:simpleType>
     
-    <!-- Define simple data type for URI pattern -->
+    <!-- Define simple data type for fileFormat pattern -->
+    <!--
     <xs:simpleType name="mimeType">
         <xs:restriction base="xs:string">
-             <xs:pattern value="[a-zA-Z]./.[a-zA-Z0-9_.-+^]"/>
+             <xs:pattern value="[a-zA-Z]+/[a-zA-Z0-9_.-\+]+"/>
         </xs:restriction>
     </xs:simpleType>
+    -->
     
     <!-- Define simple data type for enumeration values of role element -->
     <xs:simpleType name="roleType">
@@ -126,16 +128,19 @@ XML Schema definition for Life During COVID-19 digital library collection
     
 <!-- Define collection elements -->
 
+<!-- Import Dublin Core Schema -->
+<xs:import namespace="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/dc.xsd" />
+
 <xs:element name="ldcCollection" minOccurs="1" maxOccurs="1">
 <xs:element name="ldcItem" minOccurs="1" maxOccurs="unbounded">
     
 <xs:element name="collection" type="xs:string" minOccurs="0" maxOccurs="1" />
     
-<xs:element name="entity" minOccurs="1" maxOccurs="unbounded" >
+<xs:element name="entity" minOccurs="1" maxOccurs="unbounded" use="required">
   <xs:complexType>
     <xs:sequence>
-        <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
-        <xs:element name="role" type="xs:roleType" minOccurs="1" maxOccurs="2" />
+        <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" use="required"/>
+        <xs:element name="role" type="xs:roleType" minOccurs="1" maxOccurs="2" use="required"/>
         <xs:element name="affiliation" type="xs:string" minOccurs="0" maxOccurs="1" />
     </xs:sequence>
   </xs:complexType>
@@ -143,17 +148,17 @@ XML Schema definition for Life During COVID-19 digital library collection
 
 <xs:element name="organizationType" type="organizationType" minOccurs="1" maxOccurs="1" />
 
-<xs:element name="subject" minOccurs="1" maxOccurs="1">
+<xs:element name="subject" minOccurs="1" maxOccurs="1" use="required">
     <xs:complexType>
     <xs:sequence>
-        <xs:element name="topic" type="xs:string" minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="topic" type="xs:string" minOccurs="1" maxOccurs="unbounded" use="required">
             <xs:complexType>
                 <xs:simpleContent>
                     <xs:extension base="vocab-authType"/>
                 </xs:simpleContent>
             </xs:complexType>
         </xs:element>
-        <xs:element name="category" type="xs:categoryType" minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="category" type="xs:categoryType" minOccurs="1" maxOccurs="unbounded" use="required">
             <xs:complexType>
                 <xs:simpleContent>
                     <xs:extension base="vocab-authType"/>
@@ -167,7 +172,7 @@ XML Schema definition for Life During COVID-19 digital library collection
 <xs:element name="temporalRelevance" type="xs:string" minOccurs="0" maxOccurs="1" />
 <xs:element name="temporalCoverage" type="xs:string" minOccurs="0" maxOccurs="1" />
 
-<xs:element name="spatialCoverage" type="xs:string" minOccurs="1" maxOccurs="unbounded">
+<xs:element name="spatialCoverage" type="xs:string" minOccurs="1" maxOccurs="unbounded" use="required">
     <xs:complexType>
         <xs:simpleContent>
             <xs:extension base="vocab-authType"/>
@@ -175,9 +180,9 @@ XML Schema definition for Life During COVID-19 digital library collection
     </xs:complexType>
 </xs:element>   
 
-<xs:element name="country" type="countryType" minOccurs="1" maxOccurs="1" />
+<xs:element name="country" type="countryType" minOccurs="1" maxOccurs="1" use="required"/>
 
-<xs:element name="fileFormat" type="mimiType" minOccurs="1" maxOccurs="1">
+<xs:element name="fileFormat" type="xs:string" minOccurs="1" maxOccurs="1" use="required">
     <xs:complexType>
         <xs:simpleContent>
             <xs:extension base="vocab-authType"/>
@@ -186,19 +191,18 @@ XML Schema definition for Life During COVID-19 digital library collection
 </xs:element>
 
 <xs:element name="datePublished" type="xs:date" minOccurs="0" maxOccurs="1" />
-<xs:element name="source" type="uriType" minOccurs="1" maxOccurs="1" />
-<xs:element name="dateSourced" type="xs:date" minOccurs="1" maxOccurs="1" />
+<xs:element name="source" type="uriType" minOccurs="1" maxOccurs="1" use="required"/>
+<xs:element name="dateSourced" type="xs:date" minOccurs="1" maxOccurs="1" use="required"/>
 <xs:element name="dateCopyrighted" type="xs:date" minOccurs="0" maxOccurs="1" />
 <xs:element name="size" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
 
 <xs:element name="granularity" minOccurs="1" maxOccurs="1">
     <xs:complexType>
     <xs:sequence>
-        <xs:element name="relation" type="xs:string" minOccurs="1" maxOccurs="1" />
+        <xs:element name="relation" type="xs:string" minOccurs="1" maxOccurs="1" use="required"/>
         <xs:element name="aggregationSpan" type="xs:agg-spanType" minOccurs="0" maxOccurs="1" />
         <xs:element name="aggregationLevel" type="xs:agg-levelType" minOccurs="0" maxOccurs="1" />
-        <xs:element name="demographics" type="xs:demographicType" minOccurs="0" maxOccurs="1" />
-        <xs:element name="geoLocation" type="xs:string" minOccurs="1" maxOccurs="1">
+        <xs:element name="demographic" type="xs:demographicType" minOccurs="0" maxOccurs="unbounded" />
             <xs:complexType>
                 <xs:simpleContent>
                     <xs:extension base="vocab-authType"/>
