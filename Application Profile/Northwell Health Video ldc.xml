@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata
     xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:ldc="https://github.com/lisaover/PittMetadata/blob/master/Application%20Profile/ldc.xsd">
+    xmlns:ldc="https://github.com/lisaover/PittMetadata/blob/master/Application Profile/ldc.xsd">
     
     <ldc:ldcCollection>
         <ldc:ldcItem>
@@ -51,11 +51,14 @@
           <ldc:fileFormat authority="Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/video/mp4"> 
                video/mp4
            </ldc:fileFormat>
+           <ldc:size>
+               9.1 MB
+           </ldc:size>
            <dc:language> 
                eng
            </dc:language>
            <dc:rights> 
-               https://www.youtube.com/static?gl=CA&template=terms
+               https://www.youtube.com/static?gl=CA&amp;template=terms
            </dc:rights>
 
         </ldc:ldcItem>
