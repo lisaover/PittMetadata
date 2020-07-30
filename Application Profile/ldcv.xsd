@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<!--
+Metadata summer 2020
+XML Schema definition for Life During COVID-19 digital library collection
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           elementFormDefault="qualified">
+    
+    <!-- Import Dublin Core Schema -->
+    <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/dc.xsd" />
+    
+    <!-- Define collection elements - local and DC -->
+
+    <xs:element name="ldcCollection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ldcItem">
+                    <xs:complexType>
+                        <xs:sequence>
+    
+                            <xs:element name="title" type="dc:SimpleLiteral"/> <!-- DUBLIN CORE -->
+                            <xs:element name="description" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
+                            <xs:element name="identifier" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
+                            <xs:element name="relation" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
+    
+                            <xs:element name="agent">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string" />
+                                        <xs:element name="role" type="roleType" />
+                                        <xs:element name="affiliation" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element> 
+
+                            <xs:element name="audience" type="audiencePlusAuthority" />
+                            <xs:element name="organizationType" type="organizationPlusAuthority" />
+
+                            <xs:element name="subject" >
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="topic" type="stringPlusAuthority" />
+                                        <xs:element name="category" type="categoryPlusAuthority" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+ 
+                            <xs:element name="temporal" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
+ 
+                            <xs:element name="country" type="countryPlusAuthority" />
+                            <xs:element name="spatial" type="stringPlusAuthority" />
+                            <xs:element name="language" type="stringPlusAuthority" />
+                            
+                            <xs:element name="fileFormat" type="stringPlusAuthority" />
+                            <xs:element name="size" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
+    
+                            <xs:element name="bibliographicCitation" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
+                            <xs:element name="dateCopyrighted" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
+                            <xs:element name="dateAccessed" type="xs:date" />
+                            <xs:element name="supportFile" type="xs:string" />
+                            <xs:element name="rights" type="dc:SimpleLiteral"/> <!-- DUBLIN CORE -->
+                            
+                            <xs:element name="dateDownloaded" type="xs:date" />
+                            <xs:element name="totalDownloaded" type="xs:int" />
+                                
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <!-- Define global types -->
+    
+    <!-- Define simple data type for enumeration values of controlled vocabulary authority schemas -->
+    <xs:simpleType name="vocabularyType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Library of Congress Subject Headings"/>
+            <xs:enumeration value="Medical Subject Headings 2020"/>
+            <xs:enumeration value="AFS Ethnographic Thesaurus"/>
+            <xs:enumeration value="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus"/>
+            <xs:enumeration value="Getty Thesaurus of Geogrphic Names"/>
+            <xs:enumeration value="Media Types"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Define simple data type for URI pattern -->
+    <!--
+    <xs:simpleType name="uriType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="http://.*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    -->
+    <!-- Define simple data type for fileFormat pattern -->
+    <!--
+    <xs:simpleType name="mimeType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z]+/[a-zA-Z0-9_.-\+]+"/>
+        </xs:restriction>
+    </xs:simpleType>
+    -->
+    
+    <!-- Define simple data type for enumeration values of role element -->
+    <xs:simpleType name="roleType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Creator"/>
+            <xs:enumeration value="Contributor"/>
+            <xs:enumeration value="Publisher"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Define simple data type for enumeration values of organizationType element -->
+    <xs:simpleType name="audienceType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Health Professions"/>
+            <xs:enumeration value="Employers"/>
+            <xs:enumeration value="Persons"/>
+            <xs:enumeration value="Public Officials"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Define simple data type for enumeration values of organizationType element -->
+    <xs:simpleType name="organizationType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Businesses"/>
+            <xs:enumeration value="Government"/>
+            <xs:enumeration value="Health Care"/>
+            <xs:enumeration value="Higher Education"/>
+            <xs:enumeration value="News Media"/>
+            <xs:enumeration value="Nonprofit Organizations"/>
+            <xs:enumeration value="Persons"/>
+            <xs:enumeration value="School Districts"/>
+            <xs:enumeration value="Subject-matter Expert"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Define simple data type for enumeration values of category element -->
+    <xs:simpleType name="categoryType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Analysis"/>
+            <xs:enumeration value="Data"/>
+            <xs:enumeration value="Documentation"/>
+            <xs:enumeration value="Facts"/>
+            <xs:enumeration value="Governance"/> 
+            <xs:enumeration value="Instruction"/>
+            <xs:enumeration value="Interviews"/> 
+            <xs:enumeration value="Medical Policy"/>
+            <xs:enumeration value="Misinformation"/>
+            <xs:enumeration value="News"/>
+            <xs:enumeration value="Opinions"/>
+            <xs:enumeration value="Personal Narratives"/>
+            <xs:enumeration value="Stay-at-home Order"/>
+            <xs:enumeration value="Strategy"/>
+            <xs:enumeration value="Therapeutics"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- Define simple data type for enumeration values of country element 
+        Add more countries if collection is expanded beyond the USA -->
+    <xs:simpleType name="countryType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="USA" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:complexType name="countryPlusAuthority">
+        <xs:simpleContent>
+            <xs:extension base="countryType">
+                <xs:attributeGroup ref="authorityAttributeGroup"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="audiencePlusAuthority">
+        <xs:simpleContent>
+            <xs:extension base="audienceType">
+                <xs:attributeGroup ref="authorityAttributeGroup"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="organizationPlusAuthority">
+        <xs:simpleContent>
+            <xs:extension base="organizationType">
+                <xs:attributeGroup ref="authorityAttributeGroup"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="categoryPlusAuthority">
+        <xs:simpleContent>
+            <xs:extension base="categoryType">
+                <xs:attributeGroup ref="authorityAttributeGroup"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="stringPlusAuthority">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attributeGroup ref="authorityAttributeGroup"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:attributeGroup name="authorityAttributeGroup">
+        <xs:attribute name="authority" type="xs:string"/>
+        <xs:attribute name="authorityURI" type="xs:anyURI"/>
+        <xs:attribute name="valueURI" type="xs:anyURI"/>
+    </xs:attributeGroup>
+    
+</xs:schema>
