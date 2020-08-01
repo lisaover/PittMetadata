@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ldcv="https://lisaover.github.io/PittMetadata/ldc" 
+    ldcv:schemaLocation="https://lisaover.github.io/PittMetadata/ldc/ldcv.xsd">
+    
+    <ldcv:ldcCollection>
+        <ldcv:ldcItem>
+            <dc:title>Front Line Nurses in COVID-19 Pandemic Find Solace in Hope Huddles</dc:title>
+            <dc:description>Video illustrates concept of  "Hope Huddles," an initiative by a nurse to give hope to front line health care workers.</dc:description>
+            <ldcv:agent>
+                <ldcv:name>Northwell Health</ldcv:name>	
+                <ldcv:role>Creator</ldcv:role>
+                <ldcv:role>Publisher</ldcv:role>
+            </ldcv:agent>
+            <ldcv:agent>
+                <ldcv:name>Fawcett, Emily RN</ldcv:name>	
+                <ldcv:role>Contributor</ldcv:role>
+                <ldcv:affiliation>Lenox Hill Hospital</ldcv:affiliation>
+            </ldcv:agent>
+            <ldcv:audience authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21688">Health Professions</ldcv:audience>
+            <ldcv:audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</ldcv:audience>
+            <ldcv:organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21671">Health Care</ldcv:organizationType> 	
+            <ldcv:subject>
+                <ldcv:topic authority="American Folklore Society Ethnographic Thesaurus" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008918.html">Hope</ldcv:topic>
+                <ldcv:topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D009726">Nurses</ldcv:topic>
+                <ldcv:topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D010361">Patients</ldcv:topic>
+                <ldcv:category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013505.html">Personal Narratives</ldcv:category> 
+                <ldcv:category authority="LCSH" authorityURI="http://id.loc.gov/authorities/subjects.html" valueURI="http://id.loc.gov/authorities/subjects/sh85128515.html">Strategy</ldcv:category>
+            </ldcv:subject>
+            <dc:dateCopyrighted>2020-03-27</dc:dateCopyrighted>	  
+            <dc:bibliographicCitation>https://www.youtube.com/watch?v=Bt8ZboddcB4</dc:bibliographicCitation>	
+            <ldcv:dateAccessed>2020-06-20</ldcv:dateAccessed>    
+            <dc:identifier>Front line nurses in COVID-19 pandemic find solace in Hope Huddles.mp4</dc:identifier>	
+            <ldcv:fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/video/mp4">video/mp4</ldcv:fileFormat>  		
+            <ldcv:country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</ldcv:country> 
+            <dc:size>9.1 MB</dc:size>	
+            <dc:rights>Copyright 2020 Northwell Health. As an official 501(c)(3) nonprofit</dc:rights>
+            <ldcv:language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</ldcv:language>	
+        </ldcv:ldcItem>
+        
+    </ldcv:ldcCollection>
+</metadata>
