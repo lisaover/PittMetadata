@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata
     xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:ldcv="https://lisaover.github.io/PittMetadata/ldc" 
-    ldcv:schemaLocation="https://lisaover.github.io/PittMetadata/ldc/ldcv.xsd">
+    xmlns:ldcv="https://lisaover.github.io/PittMetadata" 
+    ldcv:schemaLocation="https://lisaover.github.io/PittMetadata/ldcv.xsd">
     
     <ldcv:ldcCollection>
         <ldcv:ldcItem>
