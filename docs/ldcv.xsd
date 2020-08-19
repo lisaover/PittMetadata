@@ -2,15 +2,18 @@
 <!--
 Metadata summer 2020
 XML Schema definition for Life During COVID-19 digital library collection
+Created by Lisa Over
 Contact lisaaover@gmail.com for enumerated lists updates
 -->
 
 <xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:dcterms="http://purl.org/dc/terms/" elementFormDefault="qualified">
+    xmlns:dcterms="http://purl.org/dc/terms/" elementFormDefault="qualified"
+    xmlns:ldcv="https://lisaover.github.io/PittMetadata/">
 
     <!-- Import Dublin Core Terms Schema -->
     <xs:import namespace="http://purl.org/dc/terms/"
         schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/dcterms.xsd" id="dcterms"/>
+
     <!-- Define collection elements - local and DC -->
     <xs:element name="ldcCollection">
         <xs:complexType>
@@ -18,7 +21,7 @@ Contact lisaaover@gmail.com for enumerated lists updates
                 <xs:element name="ldcItem" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element ref="dcterms:title" minOccurs="1" maxOccurs="1"/>
+                            <xs:element ref="dcterms:title"/>
                             <xs:element ref="dcterms:description" minOccurs="1" maxOccurs="1"/>
                             <xs:element name="agent" minOccurs="1" maxOccurs="unbounded">
                                 <xs:complexType>
