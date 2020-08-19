@@ -2,91 +2,96 @@
 <!--
 Metadata summer 2020
 XML Schema definition for Life During COVID-19 digital library collection
+Contact lisaaover@gmail.com for enumerated lists updates
 -->
 
-<xs:schema version="1.0"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:dc="http://purl.org/dc/elements/1.1/"
-           elementFormDefault="qualified">
-    
-    <!-- Import Dublin Core Schema -->
-    <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/dc.xsd" />
-    
-    <!-- Define collection elements - local and DC -->
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:dcterms="http://purl.org/dc/terms/" elementFormDefault="qualified">
 
+    <!-- Import Dublin Core Terms Schema -->
+    <xs:import namespace="http://purl.org/dc/terms/"
+        schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/dcterms.xsd" id="dcterms"/>
+    <!-- Define collection elements - local and DC -->
     <xs:element name="ldcCollection">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="ldcItem">
+                <xs:element name="ldcItem" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-    
-                            <xs:element name="title" type="dc:SimpleLiteral"/> <!-- DUBLIN CORE -->
-                            <xs:element name="description" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
-                            <xs:element name="identifier" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
-                            <xs:element name="relation" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
-    
-                            <xs:element name="agent">
+                            <xs:element ref="dcterms:title" minOccurs="1" maxOccurs="1"/>
+                            <xs:element ref="dcterms:description" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="agent" minOccurs="1" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="name" type="xs:string" />
-                                        <xs:element name="role" type="roleType" />
-                                        <xs:element name="affiliation" type="xs:string" />
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element> 
-
-                            <xs:element name="audience" type="audiencePlusAuthority" />
-                            <xs:element name="organizationType" type="organizationPlusAuthority" />
-
-                            <xs:element name="subject" >
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="topic" type="stringPlusAuthority" />
-                                        <xs:element name="category" type="categoryPlusAuthority" />
+                                        <xs:element name="name" type="xs:string" minOccurs="1"
+                                            maxOccurs="1"/>
+                                        <xs:element name="role" type="roleType" minOccurs="1"
+                                            maxOccurs="2"/>
+                                        <xs:element name="affiliation" type="xs:string"
+                                            minOccurs="0" maxOccurs="1"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
- 
-                            <xs:element name="temporal" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
- 
-                            <xs:element name="country" type="countryPlusAuthority" />
-                            <xs:element name="spatial" type="stringPlusAuthority" />
-                            <xs:element name="language" type="stringPlusAuthority" />
-                            
-                            <xs:element name="fileFormat" type="stringPlusAuthority" />
-                            <xs:element name="size" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
-    
-                            <xs:element name="bibliographicCitation" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
-                            <xs:element name="dateCopyrighted" type="dc:SimpleLiteral" /> <!-- DUBLIN CORE -->
-                            <xs:element name="dateAccessed" type="xs:date" />
-                            <xs:element name="supportFile" type="xs:string" />
-                            <xs:element name="rights" type="dc:SimpleLiteral"/> <!-- DUBLIN CORE -->
-                            
-                            <xs:element name="dateDownloaded" type="xs:date" />
-                            <xs:element name="totalDownloaded" type="xs:int" />
-                                
+                            <xs:element name="audience" type="audiencePlusAuthority" minOccurs="1"
+                                maxOccurs="unbounded"/>
+                            <xs:element name="organizationType" type="organizationPlusAuthority"
+                                minOccurs="1" maxOccurs="unbounded"/>
+                            <xs:element name="subject" minOccurs="1" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="topic" type="stringPlusAuthority"
+                                            minOccurs="1" maxOccurs="unbounded"/>
+                                        <xs:element name="category" type="categoryPlusAuthority"
+                                            minOccurs="1" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element ref="dcterms:identifier" minOccurs="1" maxOccurs="1"/>
+                            <xs:element ref="dcterms:bibliographicCitation" minOccurs="1"
+                                maxOccurs="1"/>
+                            <xs:element ref="dcterms:dateCopyrighted" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="dateAccessed" type="xs:date" minOccurs="1"
+                                maxOccurs="1"/>
+                            <xs:element ref="dcterms:rights" minOccurs="0" maxOccurs="1"/>
+                            <xs:element ref="dcterms:relation" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element name="country" type="countryPlusAuthority" minOccurs="1"
+                                maxOccurs="unbounded"/>
+                            <xs:element name="spatial" type="stringPlusAuthority" minOccurs="0"
+                                maxOccurs="unbounded"/>
+                            <xs:element name="language" type="stringPlusAuthority" minOccurs="1"
+                                maxOccurs="1"/>
+                            <xs:element ref="dcterms:temporal" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element ref="dcterms:extent" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element name="fileFormat" type="stringPlusAuthority" minOccurs="1"
+                                maxOccurs="1"/>
+                            <xs:element name="supportFile" type="xs:string" minOccurs="1"
+                                maxOccurs="unbounded"/>
+                            <xs:element name="dateDownloaded" type="xs:date" minOccurs="0"
+                                maxOccurs="unbounded"/>
+                            <xs:element name="totalDownloaded" type="xs:int" minOccurs="0"
+                                maxOccurs="1"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
+
     <!-- Define global types -->
-    
+
     <!-- Define simple data type for enumeration values of controlled vocabulary authority schemas -->
     <xs:simpleType name="vocabularyType">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Library of Congress Subject Headings"/>
             <xs:enumeration value="Medical Subject Headings 2020"/>
             <xs:enumeration value="AFS Ethnographic Thesaurus"/>
-            <xs:enumeration value="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus"/>
+            <xs:enumeration
+                value="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus"/>
             <xs:enumeration value="Getty Thesaurus of Geogrphic Names"/>
             <xs:enumeration value="Media Types"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <!-- Define simple data type for URI pattern -->
     <!--
     <xs:simpleType name="uriType">
@@ -103,7 +108,7 @@ XML Schema definition for Life During COVID-19 digital library collection
         </xs:restriction>
     </xs:simpleType>
     -->
-    
+
     <!-- Define simple data type for enumeration values of role element -->
     <xs:simpleType name="roleType">
         <xs:restriction base="xs:string">
@@ -112,7 +117,7 @@ XML Schema definition for Life During COVID-19 digital library collection
             <xs:enumeration value="Publisher"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <!-- Define simple data type for enumeration values of organizationType element -->
     <xs:simpleType name="audienceType">
         <xs:restriction base="xs:string">
@@ -122,7 +127,7 @@ XML Schema definition for Life During COVID-19 digital library collection
             <xs:enumeration value="Public Officials"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <!-- Define simple data type for enumeration values of organizationType element -->
     <xs:simpleType name="organizationType">
         <xs:restriction base="xs:string">
@@ -137,7 +142,7 @@ XML Schema definition for Life During COVID-19 digital library collection
             <xs:enumeration value="Subject-matter Expert"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <!-- Define simple data type for enumeration values of category element -->
     <xs:simpleType name="categoryType">
         <xs:restriction base="xs:string">
@@ -145,9 +150,9 @@ XML Schema definition for Life During COVID-19 digital library collection
             <xs:enumeration value="Data"/>
             <xs:enumeration value="Documentation"/>
             <xs:enumeration value="Facts"/>
-            <xs:enumeration value="Governance"/> 
+            <xs:enumeration value="Governance"/>
             <xs:enumeration value="Instruction"/>
-            <xs:enumeration value="Interviews"/> 
+            <xs:enumeration value="Interviews"/>
             <xs:enumeration value="Medical Policy"/>
             <xs:enumeration value="Misinformation"/>
             <xs:enumeration value="News"/>
@@ -158,15 +163,15 @@ XML Schema definition for Life During COVID-19 digital library collection
             <xs:enumeration value="Therapeutics"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <!-- Define simple data type for enumeration values of country element 
         Add more countries if collection is expanded beyond the USA -->
     <xs:simpleType name="countryType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="USA" />
+            <xs:enumeration value="USA"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <xs:complexType name="countryPlusAuthority">
         <xs:simpleContent>
             <xs:extension base="countryType">
@@ -174,7 +179,7 @@ XML Schema definition for Life During COVID-19 digital library collection
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-    
+
     <xs:complexType name="audiencePlusAuthority">
         <xs:simpleContent>
             <xs:extension base="audienceType">
@@ -182,7 +187,7 @@ XML Schema definition for Life During COVID-19 digital library collection
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-    
+
     <xs:complexType name="organizationPlusAuthority">
         <xs:simpleContent>
             <xs:extension base="organizationType">
@@ -190,7 +195,7 @@ XML Schema definition for Life During COVID-19 digital library collection
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-    
+
     <xs:complexType name="categoryPlusAuthority">
         <xs:simpleContent>
             <xs:extension base="categoryType">
@@ -198,7 +203,7 @@ XML Schema definition for Life During COVID-19 digital library collection
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-    
+
     <xs:complexType name="stringPlusAuthority">
         <xs:simpleContent>
             <xs:extension base="xs:string">
@@ -206,11 +211,10 @@ XML Schema definition for Life During COVID-19 digital library collection
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-    
+
     <xs:attributeGroup name="authorityAttributeGroup">
         <xs:attribute name="authority" type="xs:string"/>
         <xs:attribute name="authorityURI" type="xs:anyURI"/>
         <xs:attribute name="valueURI" type="xs:anyURI"/>
     </xs:attributeGroup>
-    
 </xs:schema>
