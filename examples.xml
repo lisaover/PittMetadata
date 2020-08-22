@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ldcCollection xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ldcv="https://lisaover.github.io/PittMetadata/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://lisaover.github.io/PittMetadata/ldcv.xsd">
+<ldcItem>
+  <title xmlns="http://purl.org/dc/terms/"> COVID-19: How Does it Effect You?</title>
+  <description xmlns="http://purl.org/dc/terms/">This Spanish-language infographic shows the biological events that occur following SARS-CoV-2 infection.</description>
+    	<agent>
+      		<name>Rastan, Avesta</name>	
+      		<role>Creator</role>
+      		<role>Publisher</role>
+      		<affiliation>AzuraVesta Design</affiliation>
+    	</agent>
+   	<agent>
+        	<name>Ronan's School</name>
+        	<role>Contributor</role>
+    	</agent>
+    	<agent>
+        	<name>Luis Hume</name>
+        	<role>Contributor</role>
+    	</agent>
+  <audience authority="AFS Ethnographic Terms" authorityURI=" http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI=" http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+  <organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/20469">Businesses</organizationType>	
+  <subject>
+  <topic authority="MeSH" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934">Coronavirus</topic>
+  <topic authority="MeSH" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D018450">Disease Progression</topic>
+  <category authority="LCSH" authorityURI="http://id.loc.gov/authorities/subjects.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset006479.html">Facts</category>
+  </subject>
+  <identifier xmlns="http://purl.org/dc/terms/">AvestaRastan_COVID_RGB_v04.png</identifier>
+  <bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.azuravesta.com/covid-19-pandemic</bibliographicCitation>	
+  <dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-07-12</ dateCopyrighted >
+  <dateAccessed>2020-07-16</dateAccessed>    
+  <rights xmlns="http://purl.org/dc/terms/">https://creativecommons.org/licenses/by-nc-nd/4.0/</rights>
+  <relation xmlns="http://purl.org/dc/terms/">AvestaRastan_COVID_spa.pdf</relation>
+  <country authority="ISO-3166-3" authorityURI="https://www.iso.org/obp/ui/#search" valueURI="https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country>
+  <language authority="ISO-639-3" authorityURI="https://iso639-3.sil.org/code_tables/639/data" valueURI="https://iso639-3.sil.org/code/eng">eng</language>
+  <extent xmlns="http://purl.org/dc/terms/">3.3 MB</extent>	
+  <fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/image/png">image/png</fileFormat>		
+</ldcItem>
+<ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">COVID-19: How Does it Effect You?</title>
+ <description xmlns="http://purl.org/dc/terms/">This infographic shows the biological events that occur following SARS-CoV-2 infection.</description>
+    	<agent>
+      		<name>Rastan, Avesta</name>	
+      		<role>Creator</role>
+      		<role>Publisher</role>
+      		<affiliation>AzuraVesta Design</affiliation>
+    	</agent>
+<audience authority="AFS Ethnographic Terms" authorityURI=" http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI=" http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/20469">Businesses</organizationType>	
+	<subject>
+<topic authority="MeSH" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934">Coronavirus</topic>
+<topic authority="MeSH" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D018450">Disease Progression</topic>
+<category authority="LCSH" authorityURI="http://id.loc.gov/authorities/subjects.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset006479.html">Facts</category>
+    	</subject>
+	<identifier xmlns="http://purl.org/dc/terms/">AvestaRastan_COVID_spa.pdf</identifier>	
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.azuravesta.com/covid-19-pandemic</bibliographicCitation>	
+    	<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-07-12</dateCopyrighted>
+    	<dateAccessed>2020-07-16</dateAccessed>    
+    	<rights xmlns="http://purl.org/dc/terms/">https://creativecommons.org/licenses/by-nc-nd/4.0/</rights>
+	<relation xmlns="http://purl.org/dc/terms/">AvestaRastan_COVID_RGB_v04.png</relation>
+<country authority="ISO-3166-3" authorityURI="https://www.iso.org/obp/ui/#search" valueURI="https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country>
+<language authority="ISO-639-3" authorityURI="https://iso639-3.sil.org/code_tables/639/data" valueURI="https://iso639-3.sil.org/code/spa">spa</language>
+<extent xmlns="http://purl.org/dc/terms/">12 MB</extent>
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/application/pdf">application/pdf</fileFormat>		
+</ldcItem>
+<ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">Bill Gates on Finding a Vaccine for COVID-19</title>
+<description xmlns="http://purl.org/dc/terms/">In this video Bill Gates discusses Finding a Vaccine for COVID-19, the Economy, and Returning to ‘Normal Life’</description>
+    	<agent>
+      <name>DeGeneres, Ellen</name>	
+      <role>Creator</role>
+      <role>Publisher</role>
+      <affiliation>NBCUniversal</affiliation>
+    	</agent>
+<audience authority="AFS Ethnographic Terms" authorityURI=" http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI=" http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22445">News Media</organizationType> 	
+	<subject>
+<topic authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI=" http://id.loc.gov/vocabulary/ethnographicTerms/afset003812.html ">Community Life</topic>
+<topic authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI=" http://id.loc.gov/vocabulary/ethnographicTerms/afset005843.html ">Economy</topic>
+<topic authority="MeSH" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D014611">Vaccination</topic>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset009633.html">Interviews</category> 
+	</subject>
+	<identifier xmlns="http://purl.org/dc/terms/">Bill Gates on Finding a Vaccine for COVID-19.mp4</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.youtube.com/watch?v=5oEcxMfwJnw</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-04-13</dateCopyrighted>
+    	<dateAccessed>2020-06-20</dateAccessed>    
+	<rights xmlns="http://purl.org/dc/terms/">https://www.nbc.com/general/pages/terms</rights>
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>
+    	<extent xmlns="http://purl.org/dc/terms/">53.8 MB</extent>	
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/video/mp4">video/mp4</fileFormat>
+</ldcItem>
+ <ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">Use Personal Protective Equipment (PPE) Correctly for COVID-19</title>
+<description xmlns="http://purl.org/dc/terms/">Video illustrating when, and how to use PPE correctly to help protect yourself and residents from COVID-19.</description>
+    	<agent>
+      		<name>Centers for Disease Control and Prevention</name>	
+      		<role>Creator</role>
+      		<role>Publisher</role>
+<affiliation>U.S. Department of Health and Human Services</affiliation>
+    	</agent>
+<audience authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI=" https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21688">Health Professions</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21590">Government</organizationType>	
+	<subject>
+<topic authority="MeSH" authorityURI=" https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017053">Infection Control</topic>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset020922.html">Medical Policy</category> 
+	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">CDC COVID-19 Prevention Messages for Front Line Long-Term Care Staff PPE Lessons.mp4</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.youtube.com/watch?v=YYTATw9yav4</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-04-15</dateCopyrighted>
+    	<dateAccessed>2020-06-20</dateAccessed>    
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>	
+<extent xmlns="http://purl.org/dc/terms/">25.7 MB</extent>
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/video/mp4">video/mp4</fileFormat>
+  </ldcItem>
+<ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">CoronaNet Research Project Codebook</title>
+<description xmlns="http://purl.org/dc/terms/">The CoronaNet Research Project compiles a database on government responses to the corona virus.</description>
+    	<agent>
+<name>Cheng, C., Barcelo, J., Hartnett, A.S., Kubinec, R., & Messerschmidt, L.</name>	
+      		<role>Creator</role>
+    	</agent>
+< audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21710">Higher Education</organizationType> 	
+	<subject>
+<topic authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset004833.html">Data</topic>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset005380.html">Documentation</category>
+	</subject>
+	<identifier xmlns="http://purl.org/dc/terms/">CoronaNet_Codebook.pdf</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/"> https://doi.org/10.1038/s41562-020-0909-7</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-04-24</dateCopyrighted>
+    	<dateAccessed>2020-06-20</dateAccessed>    
+<rights xmlns="http://purl.org/dc/terms/">https://s100.copyright.com/AppDispatchServlet?title=COVID-19%20Government%20Response%20Event%20Dataset%20%28CoronaNet%20v.1.0%29&author=Cindy%20Cheng%20et%20al&contentID=10.1038%2Fs41562-020-0909-7&publication=2397-3374&publicationDate=2020-06-23&publisherName=SpringerNature&orderBeanReset=true</rights>
+<relation xmlns="http://purl.org/dc/terms/">coronanet_release_US.csv</relation><country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country>
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>
+<extent xmlns="http://purl.org/dc/terms/">555 KB</extent>
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/application/pdf">application/pdf</fileFormat>
+</ldcItem> 
+ <ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">CoronaNet Release (US)</title>
+<description xmlns="http://purl.org/dc/terms/">Dataset outlining the Policy Activity Score for the United States.</description>
+    	<agent>
+      		<name>CoronaNet Research Project</name>
+<name>Cheng, C., Barcelo, J., Hartnett, A.S., Kubinec, R., & Messerschmidt, L.</name>
+      		<role>Creator</role>
+    	</agent>
+< audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21710">Higher Education</organizationType>	
+	<subject>
+<topic authority="MeSH" authorityURI=" https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017053">Infection Control</topic>
+< category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008026.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset020922.html">Governance</ category>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset004833.html">Data</category>
+    	</subject>
+	<identifier xmlns="http://purl.org/dc/terms/">coronanet_release_US.csv</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/"> https://doi.org/10.1038/s41562-020-0909-8</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-04-24</dateCopyrighted>
+    	<dateAccessed>2020-06-21</dateAccessed>    
+<rights xmlns="http://purl.org/dc/terms/">https://s100.copyright.com/AppDispatchServlet?title=COVID-19%20Government%20Response%20Event%20Dataset%20%28CoronaNet%20v.1.0%29&author=Cindy%20Cheng%20et%20al&contentID=10.1038%2Fs41562-020-0909-7&publication=2397-3374&publicationDate=2020-06-23&publisherName=SpringerNature&orderBeanReset=true</rights>
+<relation xmlns="http://purl.org/dc/terms/">CoronaNet_Codebook.pdf</relation>
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>	
+    	<extent xmlns="http://purl.org/dc/terms/">2 MB</extent>
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/text/csv">text/csv</fileFormat>
+  </ldcItem> 
+  <ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">Doctor Fact-Checks PLANDEMIC Conspiracy</title>
+<description xmlns="http://purl.org/dc/terms/">Video responds to the Plandemic movie ft. Dr. Judy Mikovits, published on social media.</description>
+    	<agent>
+      		<name>Doctor Mike</name>	
+      		<role>Creator</role>
+      		<role>Publisher</role>
+      		<affiliation>YouTube</affiliation>
+    	</agent>
+<audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType>Subject-matter Expert</organizationType> 	
+	<subject>
+<topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22553">Pandemic</topic>
+<category authority="AFS Ethnographic Terms" authorityURI=" http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset006479.html">Facts</category>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset011720.html ">Misinformation</category> 
+    	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">Doctor Fact-Checks PLANDEMIC Conspiracy.mp4</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.youtube.com/watch?v=TWpjc1QZg84</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-05-10</dateCopyrighted>
+    	<dateAccessed>2020-06-21</dateAccessed>    	
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+      <extent xmlns="http://purl.org/dc/terms/">147.2 MB</extent>	
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/video/mp4">video/mp4</fileFormat>
+</ldcItem> 
+<ldcItem>
+<title xmlns="http://purl.org/dc/terms/">Domestic Violence Calls Mount as Restrictions Linger: ʻNo One Can Leave'</title>
+<description xmlns="http://purl.org/dc/terms/">The coronavirus has created new tensions. Staying at home has worsened abusive situations. Shelters worry about the spread of the virus.</description>
+    	<agent>
+      		<name>Bosman, Julie</name>	
+      		<role>Creator</role>
+      		<affiliation>The New York Times</affiliation>
+	</agent>
+<audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22445">News Media</organizationType> 	
+	<subject>
+<topic authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset005423.html">Domestic Violence</topic>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset012470.html ">News</category>  
+<category>Stay-at-home Order</category>
+    	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">Domestic Violence Calls Mount as Restrictions Linger_ ‘No One Can Leave’ - The New York Times.pdf</identifier>	
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://nyti.ms/2WBnss5</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-05-15</dateCopyrighted>
+    	<dateAccessed>2020-06-20</dateAccessed>    
+<rights xmlns="http://purl.org/dc/terms/">https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice</rights>
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>
+    	<extent xmlns="http://purl.org/dc/terms/">1.3 MB</extent>	
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/application/pdf">application/pdf</fileFormat>
+</ldcItem> 
+<ldcItem>
+<title xmlns="http://purl.org/dc/terms/">Front Line Nurses in COVID-19 Pandemic Find Solace in Hope Huddles</title>
+<description xmlns="http://purl.org/dc/terms/">Video illustrates concept of  "Hope Huddles," an initiative by a nurse to give hope to front line health care workers.</description>
+	<agent>
+      		<name>Northwell Health</name>	
+      		<role>Creator</role>
+		<role>Publisher</role>
+    	</agent>
+    	<agent>
+      		<name>Fawcett, Emily RN</name>	
+      		<role>Contributor</role>
+      		<affiliation>Lenox Hill Hospital</affiliation>
+    	</agent>
+<audience authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21688">Health Professions</audience>
+<audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21671">Health Care</organizationType> 	
+	<subject>
+<topic authority="American Folklore Society Ethnographic Thesaurus" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008918.html">Hope</ topic>
+<topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D009726">Nurses</ topic>
+<topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D010361">Patients</ topic>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013505.html">Personal Narratives</category> 
+<category authority="LCSH" authorityURI="http://id.loc.gov/authorities/subjects.html" valueURI="http://id.loc.gov/authorities/subjects/sh85128515.html">Strategy</category>
+    	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">Front line nurses in COVID-19 pandemic find solace in Hope Huddles.mp4</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.youtube.com/watch?v=Bt8ZboddcB4</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-03-27</dateCopyrighted>
+    	<dateAccessed>2020-06-20</dateAccessed>    
+<rights xmlns="http://purl.org/dc/terms/">Copyright 2020 Northwell Health. As an official 501(c)(3) nonprofit</rights>  		
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>
+    	<extent xmlns="http://purl.org/dc/terms/">9.1 MB</extent>	
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/video/mp4">video/mp4</fileFormat>
+</ldcItem> 
+<ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">COVID-19: E17 - Resident Education</title>
+<description xmlns="http://purl.org/dc/terms/">A panel of doctors discuss the effects of the COVID-19 pandemic on resident education and how approaches may change moving forward.</description>
+    	<agent>
+      		<name>AAO–HNS/F Otolaryngology Podcasts</name>	
+	 	<name>Libsyn Directory</name>
+      		<role>Creator</role>
+      		<role>Publisher</role>
+      		<affiliation>FrequENTcy</affiliation>
+    	</agent>
+<audience authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21688">Health Professions</audience>
+<organizationType authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset012541.html">Nonprofit Organizations</organizationType> 	
+	<subject> 
+<topic authority="MeSH" authorityURI="https://meshb.nlm.nih.gov/search" valueURI=" https://meshb.nlm.nih.gov/record/ui?ui=D010036">Otolaryngology</topic>
+<topic authority="MeSH" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D004493">Education</topic>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset020922.html">Medical Policy</category> 		
+    	</subject>
+    	<identifier xmlns="http://purl.org/dc/terms/">Libsyn Directory</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://directory.libsyn.com/shows/view/id/entnet</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-05-26</dateCopyrighted>
+    	<dateAccessed>2020-06-20</dateAccessed>    
+<rights xmlns="http://purl.org/dc/terms/">Libsyn Directory - Liberated Syndication</rights>
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>	
+    	<extent xmlns="http://purl.org/dc/terms/">60 KB</extent>	
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/audio/mp4">audio/mp4</fileFormat>
+</ldcItem> 
+<ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">America Is Reopening. But have we flattened the curve?</title>
+<description xmlns="http://purl.org/dc/terms/">Page tracks and visualizes new COVID-19 cases across all 50 states.</description>
+    	<agent>
+      		<name>John Hopkins University & Medicine</name>	
+      		<role>Creator</role>
+      		<role>Publisher</role>
+      		<affiliation>John Hopkins University</affiliation>
+    	</agent>
+<audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21710">Higher Education</organizationType> 	
+	<subject>
+<topic authority="MeSH" authorityURI=" https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017053">Infection Control</topic>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset012470.html ">News</category> 
+<category authority="AFS Ethnographic Terms" authorityURI=" http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset006479.html">Facts</category> 		
+    	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">new-cases-50-states.html</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://coronavirus.jhu.edu/data/new-cases-50-states</bibliographicCitation>	
+    	<dateAccessed>2020-06-20</dateAccessed>    
+	<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-06-20</dateCopyrighted>
+<rights xmlns="http://purl.org/dc/terms/">2020 Johns Hopkins University. All rights reserved.</rights><fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/text/html">text/html</fileFormat>  	
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>
+      <extent xmlns="http://purl.org/dc/terms/">507 KB</extent>	
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/text/html">text/html</fileFormat>
+<supportFile> America Is Reopening. But have we flattened the curve? - Johns Hopkins Coronavirus Resource Center_files</suppotFile>
+</ldcItem> 
+  <ldcItem>
+<title xmlns="http://purl.org/dc/terms/">Nurse Shares Heartbreaking Reality of Health Care Workers Fighting COVID-19</title>
+<description xmlns="http://purl.org/dc/terms/">Nurse opens up about her 'worst shift' yet, exposing the heartbreaking reality of health care workers fighting the pandemic.</description>
+    	<agent>
+      		<name>Schmall, D'niel</name>	
+      		<role>Creator</role>
+      		<affiliation>Now This</affiliation>
+	  	<affiliation>YouTube</affiliation>
+    	</agent>
+<audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22445">News Media</organizationType> 	
+	<subject>
+<topic>Coronavirus Disease</topic> 
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013505.html">Personal Narratives</category> 	
+    	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">Nurse Shares Heartbreaking Reality of Health Care Workers Fighting COVID-19 NowThis.mp4</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.youtube.com/watch?v=EdqMd-070hs</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-04-07</dateCopyrighted>
+      <dateAccessed>2020-06-20</dateAccessed>    
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<spatial authority="Getty TGN" authorityURI=https://www.getty.edu/research/tools/vocabularies/tgn/ valueURI="http://www.getty.edu/vow/TGNHierarchy?find=new+york&place=&nation=&english=Y&subjectid=7007567">New York, New York</spatial>
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>
+      <extent xmlns="http://purl.org/dc/terms/">11.9 MB</extent>	
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/video/mp4">video/mp4</fileFormat>
+</ldcItem> 
+<ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">Prone Positioning for the COVID-19 Patient</title>
+<description xmlns="http://purl.org/dc/terms/">Medical professionals demonstrate how to prepare a patient for prone positioning.</description>
+    	<agent>
+      		<name>The Mount Sinai Health System</name>	
+      		<role>Creator</role>
+      		<role>Publisher</role>
+      		<affiliation>Youtube</affiliation>
+    	</agent>
+<audience authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21688">Health Professions</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21671">Health Care</organizationType>
+<subject>
+<topic authority="MeSH" authorityURI="https://meshb.nlm.nih.gov/search"valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D016684">Prone Position</topic>
+<category authority="MeSH" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D013812">Therapeutics</category> 		
+    	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">Prone Positioning for the COVID-19 Patient.mp4</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.youtube.com/watch?v=ECdxhNFLwVo</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-03-31</dateCopyrighted>
+    	<dateAccessed>2020-06-20</dateAccessed>    
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>	
+<extent xmlns="http://purl.org/dc/terms/">93.1 MB</extent>
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/video/mp4">video/mp4</fileFormat>
+</ldcItem> 
+<ldcItem>
+<title xmlns="http://purl.org/dc/terms/">Provisional Death Counts for Coronavirus Disease COVID-19 Weekly State-Specific Data Updates</title>
+<description xmlns="http://purl.org/dc/terms/">This report provides a weekly summary of COVID-19 deaths by geographic and demographic variables.</description>
+    	<agent>
+      		<name>National Center for Health Statistics</name>	
+      		<role>Creator</role>
+      		<role>Publisher</role>
+<affiliation>U.S. Department of Health and Human Services</affiliation>
+    	</agent>
+<audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21590">Government</organizationType> 	
+	<subject>
+<topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D003643">Death</topic>
+<topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22965">Race</topic>
+<topic authority="Inter-university Consortium for Political and Social Research (ICPSR) Thesaurus" authorityURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21311">Ethnicity</topic>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset004833.html">Data</category>  
+    	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">Provisional_Death_Counts_for_Coronavirus_Disease__COVID-19___Weekly_State-Specific_Data_Updates.csv</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.cdc.gov/nchs/nvss/vsrr/covid19_weekly/index.htm</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020</dateCopyrighted>
+    	<dateAccessed>2020-06-19</dateAccessed>    
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<spatial>states</spatial>
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>
+    	<extent xmlns="http://purl.org/dc/terms/">15 KB</extent>	
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/text/csv">text/csv</fileFormat>  
+</ldcItem> 
+<ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">Safety and Health Topics: COVID-19 - Control and Prevention</title>
+<description xmlns="http://purl.org/dc/terms/">Methods for workplace control and safety relating to the COVID-19 virus.</description>
+    	<agent>
+      		<name>Occupational Safety and Health Administration</name>	
+      		<role>Creator</role>
+      		<role>Publisher</role>
+      		<affiliation>United States Department of Labor</affiliation>
+    	</agent>
+<audience authority="AFS Ethnographic Terms" authorityURI=" http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI http://id.loc.gov/vocabulary/ethnographicTerms/afset006055.html">Employers</ audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21590">Government</organizationType> 	
+	<subject>
+<topic authority="MeSH" authorityURI=" https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017053">Infection Control</topic> 
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008026.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset020922.html">Governance</category> 		
+    	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">Safety and Health Topics COVID-19 - Control and Prevention Occupational Safety and Health Administration.pdf</identifier>
+ <bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.osha.gov/SLTC/covid-19/controlprevention.html</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-07-07</dateCopyrighted>
+    	<dateAccessed>2020-07-11</dateAccessed>    
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>	
+<extent xmlns="http://purl.org/dc/terms/">1.3 MB</extent>
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/application/pdf">application/pdf</fileFormat>
+</ldcItem> 
+<ldcItem>
+<title xmlns="http://purl.org/dc/terms/">Best Practices for Retail Food Stores, Restaurants, and Food Pick-Up/Delivery Services During the COVID-19 Pandemic</title>
+<description xmlns="http://purl.org/dc/terms/">FDA information about best practices for retail food stores during the COVID-19 pandemic to safeguard workers and consumers.</description>
+    	<agent>
+      		<name>U.S. Food and Drug Administration</name>	
+      		<role>Creator</role>
+      		<role>Publisher</role>
+<affiliation>U.S. Department of Health and Human Services</affiliation>
+    	</agent>
+<audience authority="AFS Ethnographic Terms" authorityURI=" http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI http://id.loc.gov/vocabulary/ethnographicTerms/afset006055.html">Employers</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/21590">Government</organizationType> 	
+<subject>
+<category authority="LCSH" authorityURI="http://id.loc.gov/authorities/subjects.html" valueURI=" http://id.loc.gov/authorities/subjects/sh2009125367.html "> Food supply--Government policy--United States</category>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008026.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset020922.html">Governance</category> 
+	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">best-practices-retail-food-stores-restaurants-and-food-pick-updelivery-services-during-covid-19.html</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.fda.gov/food/food-safety-during-emergencies/best-practices-retail-food-stores-restaurants-and-food-pick-updelivery-services-during-covid-19</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-04-21</dateCopyrighted>
+    	<dateAccessed>2020-07-15</dateAccessed>   
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>	
+<extent xmlns="http://purl.org/dc/terms/">60 KB</extent>
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/text/html">text/html</fileFormat>
+<supportFile> Best Practices for Retail Food Stores, Restaurants, and Food Pick-Up_Delivery Services During the COVID-19 Pandemic | FDA_files</supportFile>
+  </ldcItem>
+<ldcItem>
+<title xmlns="http://purl.org/dc/terms/">Did The Trump Administration Ignore Early Coronavirus Warnings?</title>
+<description xmlns="http://purl.org/dc/terms/">Article discusses revelations that come as Trump attacks the United Nations health agency.</description>
+    	<agent>
+      		<name>Vanity Fair</name>
+      		<name>Lutz, Eric</name>	  
+      		<role>Creator</role>
+      		<role>Publisher</role>
+	  	<affiliation>Condé Nast</affiliation>
+    	</agent>
+< audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22445">News Media</organizationType>	
+	<subject>
+<topic authority="MeSH" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D017934">Coronavirus</topic>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html " valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset012470.html ">News</category>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset008026.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset020922.html">Governance</category>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset000495.html">Analysis</category> 
+    </subject>
+<identifier xmlns="http://purl.org/dc/terms/">Did The Trump Administration Ignore Early Coronavirus Warnings? | Vanity Fair.html</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://www.vanityfair.com/news/2020/04/did-the-trump-administration-ignore-early-coronavirus-warnings</bibliographicCitation>	
+    	<dateAccessed>2020-06-21</dateAccessed>    
+	<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020-04-20</dateCopyrighted>
+<rights xmlns="http://purl.org/dc/terms/">https://www.condenast.com/reprints-permissions</rights>
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>	
+<extent xmlns="http://purl.org/dc/terms/">1.4 MB</extent>
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/text/html">text/html</ fileFormat>
+<supportFile> Did The Trump Administration Ignore Early Coronavirus Warnings? | Vanity Fair_files</supportFile>
+</ldcItem>
+<ldcItem>
+    	<title xmlns="http://purl.org/dc/terms/">Coronavirus (Covid-19) Data in the United States</title>
+<description xmlns="http://purl.org/dc/terms/">Raw data includes cases of and deaths from COVID-19 across counties within the United States.</description>
+    	<agent>
+      		<name>New York Times</name>	
+      		<role>Creator</role>
+      		<role>Publisher</role>
+	    </agent>
+    	<organizationType 
+<audience authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset013521.html">Persons</audience>   
+<organizationType authority="ICSPR" authorityURI="https://www.icpsr.umich.edu/web/pages/index.html" valueURI="https://www.icpsr.umich.edu/web/ICPSR/thesaurus/10001/terms/22445">News Media</organizationType>
+    	<subject>
+<topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D003643">Death</topic>
+<topic authority="Medical Subject Headings 2020" authorityURI="https://meshb.nlm.nih.gov/search" valueURI="https://meshb.nlm.nih.gov/record/ui?ui=D010361">Patients</topic>
+<category authority="AFS Ethnographic Terms" authorityURI="http://id.loc.gov/vocabulary/ethnographicTerms.html" valueURI="http://id.loc.gov/vocabulary/ethnographicTerms/afset004833.html">Data</category>  
+    	</subject>
+<identifier xmlns="http://purl.org/dc/terms/">us-counties.csv</identifier>
+<bibliographicCitation xmlns="http://purl.org/dc/terms/">https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv</bibliographicCitation>	
+<dateCopyrighted xmlns="http://purl.org/dc/terms/">2020</dateCopyrighted>
+    	<dateAccessed>2020-06-19</dateAccessed> 
+<country authority="ISO-3166-3" authorityURI=" https://www.iso.org/obp/ui/#search" valueURI=" https://www.iso.org/obp/ui/#iso:code:3166:US">USA</country> 
+<spatial>counties</spatial>
+<language authority=“ISO-639-3” authorityURI=“https://iso639-3.sil.org/code_tables/639/data” valueURI=“https://iso639-3.sil.org/code/eng”>eng</language>	
+<extent xmlns="http://purl.org/dc/terms/">9.8 MB</extent>
+<fileFormat authority="IANA Media Types" authorityURI="https://www.iana.org/assignments/media-types/media-types.xhtml" valueURI="https://www.iana.org/assignments/media-types/text/csv">text/csv</fileFormat>
+</ldcItem>
+</ldcCollection>
+</ldcCollection>

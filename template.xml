@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ldcCollection xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ldcv="https://lisaover.github.io/PittMetadata/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://lisaover.github.io/PittMetadata/ldcv.xsd">
+    <ldcItem>
+        <title xmlns="http://purl.org/dc/terms/"></title>
+        <description xmlns="http://purl.org/dc/terms/"></description>
+        <agent>
+            <name></name>
+            <role></role>
+        </agent>
+        <audience></audience>
+        <organizationType></organizationType>
+        <subject>
+            <topic></topic>
+            <category></category>
+        </subject>
+        <identifier xmlns="http://purl.org/dc/terms/"></identifier>
+        <bibliographicCitation xmlns="http://purl.org/dc/terms/"></bibliographicCitation>
+        <dateCopyrighted xmlns="http://purl.org/dc/terms/"></dateCopyrighted>
+        <dateAccessed></dateAccessed>
+        <country></country>
+        <language></language>
+        <fileFormat></fileFormat>
+        <supportFile></supportFile>
+    </ldcItem>
+</ldcCollectionxmlns:dcterms="http://purl.org/dc/terms/" xmlns:ldcv="https://lisaover.github.io/PittMetadata/">
