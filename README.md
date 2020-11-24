@@ -9,4 +9,4 @@ The Life During COVID-19 Metadata Schema Application Profile is an XML Schema ap
 Access the XSD file here:
 <a href="https://lisaover.github.io/PittMetadata/ldcv.xsd">ldcv.xsd</a>
 
-This project resides in the University Library Systems D-Scholarship collection: http://d-scholarship.pitt.edu/39650/
+This project resides in the University Library Systems D-Scholarship collection: <a href="http://d-scholarship.pitt.edu/39650/">http://d-scholarship.pitt.edu/39650/</a>
